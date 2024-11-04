@@ -29,7 +29,7 @@ jobs:
    
 
     - name: Download text file
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v3
       with:
         name: hello-artifact
         path: ./artifacts/
